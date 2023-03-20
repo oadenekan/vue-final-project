@@ -11,12 +11,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBa2NrWNQNcN2Y0jq5d9m7uqAbiOggFiYY",
-  authDomain: "lightauth-ca6a7.firebaseapp.com",
-  projectId: "lightauth-ca6a7",
-  storageBucket: "lightauth-ca6a7.appspot.com",
-  messagingSenderId: "303426404922",
-  appId: "1:303426404922:web:2fa5207a820df27ec1eb03",
+  apiKey: "AIzaSyBhyZg016IvAkJztRRQ4F3zGwsHt_TM-BM",
+  authDomain: "my-vue-final-project.firebaseapp.com",
+  projectId: "my-vue-final-project",
+  storageBucket: "my-vue-final-project.appspot.com",
+  messagingSenderId: "913147414144",
+  appId: "1:913147414144:web:a1fc750974165fb9f6c865",
 };
 
 // Initialize Firebase
