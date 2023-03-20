@@ -6,13 +6,13 @@
       <router-link to="/">
         <img
           class="w-auto h-14"
-          :src="require('../../public/khendraw_Alloy_Wheel.svg')"
+          :src="require('../../public/cart.svg')"
           alt="logo"
         />
       </router-link>
 
       <p class="text-sm text-gray-600 dark:text-gray-300">
-        © Copyright OsitaLight@AltSchool {{ year }}.
+        © Copyright Olusola Ayeni@AltSchool {{ year }}.
       </p>
 
       <div class="flex -mx-2">

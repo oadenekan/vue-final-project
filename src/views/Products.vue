@@ -6,12 +6,11 @@
           <h1
             class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white"
           >
-            Shop Anything, anytime!
+            Shop Our Products!
           </h1>
 
           <p class="max-w-lg mx-auto mt-4 text-gray-500">
-            We bring you explicit high quality products selected only from the
-            best selling categories just for you!
+            We provide a one-stop shop for your needs.
           </p>
         </div>
 

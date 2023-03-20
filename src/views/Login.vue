@@ -5,7 +5,7 @@
     <div class="flex flex-col gap-2 justify-center mx-auto">
       <img
         class="w-auto h-20"
-        :src="require('../../public/khendraw_Alloy_Wheel.svg')"
+        :src="require('../../public/cart.svg')"
         alt="logo"
       />
       <p class="text-gray-600">Welcome back !</p>

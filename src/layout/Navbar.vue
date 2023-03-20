@@ -6,7 +6,7 @@
           <a href="/">
             <img
               class="w-auto h-14"
-              :src="require('../../public/khendraw_Alloy_Wheel.svg')"
+              :src="require('../../public/cart.svg')"
               alt="logo"
             />
           </a>

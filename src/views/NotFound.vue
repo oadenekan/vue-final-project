@@ -4,13 +4,6 @@
       <div
         class="container min-h-screen px-6 py-12 flex-col justify-center mx-auto lg:flex lg:items-center lg:gap-12"
       >
-        <div class="relative w-full mt-12 lg:mt-0">
-          <img
-            class="w-full max-w-lg lg:mx-auto"
-            :src="require('../../public/illustration.svg')"
-            alt="404 page"
-          />
-        </div>
         <div class="w-full">
           <p class="text-sm font-medium text-blue-500 dark:text-blue-400">
             404 error
@@ -21,8 +14,7 @@
             Page not found
           </h1>
           <p class="mt-4 text-gray-500 dark:text-gray-400">
-            Sorry, the page you are looking for doesn't exist.Here are some
-            helpful links:
+            Sorry, the page you are looking for doesn't exist.
           </p>
 
           <div class="flex justify-center items-center mt-6 gap-x-3">

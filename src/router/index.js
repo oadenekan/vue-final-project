@@ -1,4 +1,4 @@
-import { authGuard } from "@/composables/auth-guard";
+import { authUser } from "@/composables/auth-user";
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 
@@ -55,16 +55,16 @@ const router = createRouter({
   routes,
 });
 
-// Use the authGuard function as a Vue Router beforeEach guard
+// Use the authUser function as a Vue Router beforeEach guard
 router.beforeEach(async (to, from, next) => {
   // Check if the route requires authentication
   const requiresAuth = to.matched.some((record) => record.meta.requiresAuth);
 
   if (requiresAuth) {
-    // Route requires authentication, call the authGuard function
-    await authGuard(to, from, next);
+    // Authentication Route
+    await authUser(to, from, next);
   } else {
-    // Route does not require authentication, allow access to route
+    // Allow access to route
     next();
   }
 });

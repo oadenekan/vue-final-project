@@ -2,6 +2,16 @@
   <header class="bg-white dark:bg-gray-900">
     <div class="container px-6 py-16 mx-auto">
       <div class="items-center lg:flex">
+        <div
+          class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2"
+        >
+          <img
+            class="w-full h-full max-w-md"
+            src="https://merakiui.com/images/components/Catalogue-pana.svg"
+            alt="Catalogue-pana.svg"
+          />
+        </div>
+
         <div class="w-full lg:w-1/2">
           <div class="lg:max-w-lg">
             <h1
@@ -30,16 +40,6 @@
               </button>
             </div>
           </div>
-        </div>
-
-        <div
-          class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2"
-        >
-          <img
-            class="w-full h-full max-w-md"
-            src="https://merakiui.com/images/components/Email-campaign-bro.svg"
-            alt="email illustration vector art"
-          />
         </div>
       </div>
     </div>

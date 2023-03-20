@@ -1,13 +1,13 @@
 import store from "@/store";
 
-export async function authGuard(to, from, next) {
+export async function authUser(to, from, next) {
   const currentUser = await store.dispatch("auth/getCurrentUser");
 
   if (!currentUser) {
-    // User is not authenticated, redirect to login page
+    // Redirect to login page if user is not authenticated.
     next("/login");
   } else {
-    // User is authenticated, allow access to route
+    // Allow access to route if user is authenticated.
     next();
   }
 }
