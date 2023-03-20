@@ -17,8 +17,9 @@ const mutations = {
 const actions = {
   async fetchProducts({ commit }) {
     try {
-      const response = await axiosClient.get(`products`);
+      const response = await axiosClient.get(`products?skip=10`);
       const products = response.data.products;
+      console.log(response);
       commit("setProducts", products);
     } catch (error) {
       console.error(error);
